@@ -1,0 +1,35 @@
+#profile_image {
+  height: 100%;
+  width: 100%; }
+
+.bg-black {
+  background: #000;
+  color: #fff; }
+
+#main-header a {
+  color: white; }
+#main-header .port-item {
+  width: 25%; }
+  #main-header .port-item .fa {
+    font-size: 2em; }
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+#resume img {
+  width: 100%;
+  height: 100%; }
+#resume .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  position: absolute; }
+#resume #resumePicCard1:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer; }
+#resume #resumePicCard2:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer; }
+
+/*# sourceMappingURL=main-stylesheet.css.map */

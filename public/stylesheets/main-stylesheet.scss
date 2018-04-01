@@ -1,0 +1,52 @@
+#profile_image{
+  height: 100%;
+  width: 100%;
+}
+
+.bg-black{
+  background: #000;
+  color: #fff;
+}
+
+#main-header{
+  a{
+    color: white;
+  }
+
+  .port-item{
+    width: 25%;
+    .fa{
+      font-size: 2em;
+    }
+  }
+
+  .port-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+#resume{
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+  }
+
+  #resumePicCard1:hover .overlay{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  #resumePicCard2:hover .overlay{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
