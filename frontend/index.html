@@ -39,22 +39,22 @@
                     <div class="d-flex flex-row text-white align-items-stretch text-center">
                         <div class="port-item p-4 bg-primary"
                              data-toggle="collapse"
-                             data-target="#home">
+                             tar="#home">
                             <i class="fa fa-home d-block"></i> Home
                         </div>
                         <div class="port-item p-4 bg-success"
                              data-toggle="collapse"
-                             data-target="#resume">
+                             tar="#resume">
                             <i class="fa fa-graduation-cap d-block"></i> Resume
                         </div>
                         <div class="port-item p-4 bg-warning"
                              data-toggle="collapse"
-                             data-target="#myWork">
+                             tar="#myWork">
                             <i class="fa fa-folder-open d-block"></i> Work
                         </div>
                         <div class="port-item p-4 bg-danger"
                              data-toggle="collapse"
-                             data-target="#contact">
+                             tar="#contact">
                             <i class="fa fa-envelope d-block"></i> Contact
                         </div>
                     </div>
@@ -72,6 +72,51 @@
                 each and every concept that is there in web development. I believe in working
                 hard until the goal is not reached.
             </p>
+        </div>
+
+        <div class="card card-body py-3"
+             style="border-radius: 0">
+
+            <h3>My skills</h3>
+            <p>I have learnt multiple programming languages like HTML, CSS , JAVASCRIPT,
+                JAVA, PYTHON. Currently these are top trending languages in the industry.
+                And the following is my progress in each language.</p>
+
+            <div class="progress_container mt-4 mb-5">
+                <div class="progress mb-2 mt-2">
+                    <div class="progress-bar"
+                         style="width: 100%; background-color: #e44d26"></div>
+                </div>
+                <img src="/images/html5logo.png">
+            </div>
+            <div class="progress_container mt-4 mb-5">
+                <div class="progress mb-2 mt-2">
+                    <div class="progress-bar"
+                         style="width: 100%; background-color: #379ad6"></div>
+                </div>
+                <img src="/images/csslogo.png">
+            </div>
+            <div class="progress_container mt-4 mb-5">
+                <div class="progress mb-2 mt-2">
+                    <div class="progress-bar"
+                         style="width: 80%; background-color: #f0db4f"></div>
+                </div>
+                <img src="/images/javascriptlogo.png">
+            </div>
+            <div class="progress_container mt-4 mb-5">
+                <div class="progress mb-2 mt-2">
+                    <div class="progress-bar"
+                         style="width: 100%; background-color: #1199ba"></div>
+                </div>
+                <img src="/images/javalogo.png">
+            </div>
+            <div class="progress_container mt-4 mb-5">
+                <div class="progress mb-2 mt-2">
+                    <div class="progress-bar"
+                         style="width: 40%; background-color: #3771a1"></div>
+                </div>
+                <img src="/images/pythonlogo.png" style="width: 100px; left: -30px">
+            </div>
         </div>
     </div>
 
@@ -117,7 +162,9 @@
         </div>
     </div>
 
-    <div id="contact" class="collapse">
+    <div id="contact"
+         class="collapse"
+         style="border-left: solid 1px; border-right: solid 1px; border-left-color: #f2f2f2; border-right-color: #f2f2f2">
         <div class="card card-body bg-danger text-white py-3"
              style="border-radius: 0">
             <h2>My social and personal contact</h2>
@@ -126,12 +173,99 @@
                 github profile for my web projects.
             </p>
         </div>
+
+        <div class="d-flex flex-row align-items-stretch">
+            <div class="social-logo-container" id="twitterLogo">
+                <img src="/images/twitter-banner.jpg">
+                <div class="social-logo-overlay text-center"
+                     id="twitterLogoOverlay">
+                    <span>Tweet me<br>@pradumnbansal</span>
+                </div>
+            </div>
+            <div class="social-logo-container" id="facebookLogo">
+                <img src="/images/facebooklogo.jpg">
+                <div class="social-logo-overlay text-center"
+                     id="facebookLogoOverlay">
+                    <span>Write on my wall<br>@pradumn.bansal.5</span>
+                </div>
+            </div>
+            <div class="social-logo-container" id="instagramLogo">
+                <img src="/images/instagram-logo.jpg">
+                <div class="social-logo-overlay text-center"
+                     id="instagramLogoOverlay">
+                    <span>See my posts<br>@_pradumn</span>
+                </div>
+            </div>
+            <div class="social-logo-container" id="githubLogo">
+                <img src="/images/github-logo.png">
+                <div class="social-logo-overlay text-center"
+                     id="githubLogoOverlay">
+                    <span>See my work<br>@pradumn26</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-3"
+             style="font-size: 20px; position: relative; margin-left: 20px">
+            <i class="fa fa-phone fa-2x"
+               style="color: #43b51f; position: absolute"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>+919717850212 (Whatsapp)</b>
+        </div>
+
+        <div class="my-3" style="margin-left: 20px; margin-right: 20px">
+            <br>
+            <h3>Email me</h3>
+            <form method="post" action="/api/send_mail">
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon bg-danger text-white"
+                              style="border-bottom-left-radius: 5px; border-top-left-radius: 5px">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <input type="text"
+                               class="form-control bg-dark text-white"
+                               placeholder="Subject"
+                               name="subject">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon bg-danger text-white"
+                              style="border-bottom-left-radius: 5px; border-top-left-radius: 5px">
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <input type="email"
+                               class="form-control bg-dark text-white"
+                               placeholder="Your email"
+                               name="email">
+                    </div>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon bg-danger text-white"
+                          style="border-bottom-left-radius: 5px; border-top-left-radius: 5px">
+                        <i class="fa fa-pencil"
+                           style="position: relative; top: 50%; transform: translateY(-50%)"></i>
+                    </span>
+                    <textarea class="form-control bg-dark text-white"
+                              rows="5"
+                              placeholder="Message"
+                              name="message"></textarea>
+                </div>
+
+                <input type="submit"
+                       value="submit"
+                       class="btn btn-danger btn-block btn-lg my-2">
+            </form>
+        </div>
     </div>
 
     <footer id="main-footer" class="p-3 bg-dark text-white">
         <div class="row">
             <div class="col-md-6">
-                <a href="/files/resume.pdf" class="btn btn-outline-light" download><i class="fa fa-cloud"></i> Download resume</a>
+                <a href="/files/resume.pdf" class="btn btn-outline-light" download><i class="fa fa-cloud"></i> Download
+                    resume</a>
             </div>
         </div>
     </footer>
@@ -148,12 +282,37 @@
         crossorigin="anonymous"></script>
 <script>
     $('.port-item').click(function (event) {
-        $('.collapse').collapse('hide');
+        let collapseDisplayed = event.currentTarget.attributes['tar'].value;
+        collapseOthers(collapseDisplayed);
     });
 
     $('.overlay').click(function () {
         window.location.assign('/files/resume.pdf');
-    })
+    });
+
+    $('#twitterLogoOverlay').click(function () {
+        window.location.assign('https://twitter.com/pradumnbansal');
+    });
+    $('#facebookLogoOverlay').click(function () {
+        window.location.assign('https://www.facebook.com/pradumn.bansal.5');
+    });
+    $('#instagramLogoOverlay').click(function () {
+        window.location.assign('https://www.instagram.com/_pradumn');
+    });
+    $('#githubLogoOverlay').click(function () {
+        window.location.assign('https://www.github.com/pradumn26');
+    });
+
+    function collapseOthers(collapseDisplayed) {
+        let collapses = ['#home', '#resume', '#myWork', '#contact'];
+        for (i in collapses) {
+            if (collapses[i] !== collapseDisplayed) {
+                $(collapses[i]).collapse('hide');
+            } else {
+                $(collapses[i]).collapse('show');
+            }
+        }
+    }
 </script>
 </body>
 </html>

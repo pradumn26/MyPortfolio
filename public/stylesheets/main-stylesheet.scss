@@ -54,3 +54,89 @@
 .container{
   padding: 0;
 }
+
+.progress_container{
+  position: relative;
+  margin-left: 20px;
+  width: 80%;
+
+  .progress{
+    height: 10px;
+  }
+  .progress-bar{
+    height: 10px;
+  }
+
+  img{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    top: -25px;
+    left: -15px;
+  }
+}
+
+.social-logo-container{
+  width: 25%;
+  height: 200px;
+  position: relative;
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .social-logo-overlay{
+    position: absolute;
+    color: white;
+    background-color: black;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    span{
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+#twitterLogo:hover .social-logo-overlay{
+  opacity: 0.5;
+  cursor: pointer;
+}
+#facebookLogo:hover .social-logo-overlay{
+  opacity: 0.5;
+  cursor: pointer;
+}
+#instagramLogo:hover .social-logo-overlay{
+  opacity: 0.5;
+  cursor: pointer;
+}
+#githubLogo:hover .social-logo-overlay{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+form{
+  padding-bottom: 50px;
+
+  i{
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  form{
+    width: 80%;
+    padding-bottom: 50px;
+
+    i{
+      margin: 10px;
+    }
+  }
+}
