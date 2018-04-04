@@ -160,6 +160,39 @@
                 Some of my work is here and a lot to do...
             </p>
         </div>
+
+        <div class="my-3 row" style="width: 100%; margin-left: 0; margin-right: 0">
+            <div class="col-sm-4 col-12 my-work"
+                 style="padding: 5px">
+                <a><b>Emaily</b></a>
+                <div class="card card-body"
+                     id="emailyCard"
+                     style="border-radius: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 0">
+                    <img src="/images/emaily-screenshot.png">
+                    <div class="mywork-overlay" id="emailyCardOverlay"><span>afternoon-taiga-93958.herokuapp.com</span></div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 my-work"
+                 style="padding: 5px">
+                <a><b>Pictogram</b></a>
+                <div class="card card-body"
+                     id="pictogramCard"
+                     style="border-radius: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 0">
+                    <img src="/images/pictogram-screenshot.png">
+                    <div class="mywork-overlay" id="pictogramCardOverlay"><span>shielded-hollows-61325.herokuapp.com</span></div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 my-work"
+                 style="padding: 5px">
+                <a><b>Pradumn Bansal</b></a>
+                <div class="card card-body"
+                     id="pradumnbansalCard"
+                     style="border-radius: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 0">
+                    <img src="/images/pradumnbansal-screenshot.png">
+                    <div class="mywork-overlay" id="pradumnbansalCardOverlay"><span>pradumnbansal.herokuapp.com</span></div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="contact"
@@ -301,6 +334,16 @@
     });
     $('#githubLogoOverlay').click(function () {
         window.location.assign('https://www.github.com/pradumn26');
+    });
+
+    $('#emailyCardOverlay').click(function () {
+       window.location.assign('https://afternoon-taiga-93958.herokuapp.com');
+    });
+    $('#pictogramCardOverlay').click(function () {
+        window.location.assign('https://shielded-hollows-61325.herokuapp.com');
+    });
+    $('#pradumnbansalCardOverlay').click(function () {
+        window.location.assign('https://pradumnbansal.herokuapp.com');
     });
 
     function collapseOthers(collapseDisplayed) {
