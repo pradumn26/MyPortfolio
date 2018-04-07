@@ -141,37 +141,37 @@ form{
   }
 }
 
-.my-work{
-  a{
-    color: black;
-    display: block;
-    text-align: center;
+.mywork-card{
+  width: 90%;
+  margin: 10px auto 10px auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 0;
+  background-color: #cfd8dc;
+
+  img{
+    width: 100%;
+    height: 100%;
   }
 
-  .card{
+  .mywork-overlay{
+    position: absolute;
     width: 100%;
-    height: 400px;
-    position: relative;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0;
 
-    img{
-      width: 100%;
-      height: 100%;
+    span{
+      position: relative;
+      top: 45%;
     }
+  }
 
-    .mywork-overlay{
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      opacity: 0;
-      background-color: black;
-      color: white;
-      text-align: center;
-
-      span{
-        position: relative;
-        top: 48%;
-      }
-    }
+  .mywork-titlespan{
+    font-weight: bold;
   }
 }
 

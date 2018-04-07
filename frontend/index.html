@@ -161,36 +161,88 @@
             </p>
         </div>
 
-        <div class="my-3 row" style="width: 100%; margin-left: 0; margin-right: 0">
-            <div class="col-sm-4 col-12 my-work"
-                 style="padding: 5px">
-                <a><b>Emaily</b></a>
-                <div class="card card-body"
-                     id="emailyCard"
-                     style="border-radius: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 0">
-                    <img src="/images/emaily-screenshot.png">
-                    <div class="mywork-overlay" id="emailyCardOverlay"><span>afternoon-taiga-93958.herokuapp.com</span></div>
+        <div class="mywork-card row">
+            <div class="col-md-4 col-12 card card-body"
+                 id="emailyCard"
+                 style="position: relative;
+                        border-radius: 0;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        padding: 0">
+                <img src="/images/emaily-screenshot.png">
+                <div class="mywork-overlay" id="emailyCardOverlay">
+                    <span>afternoon-taiga-93958.herokuapp.com</span>
                 </div>
             </div>
-            <div class="col-sm-4 col-12 my-work"
-                 style="padding: 5px">
-                <a><b>Pictogram</b></a>
-                <div class="card card-body"
-                     id="pictogramCard"
-                     style="border-radius: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 0">
-                    <img src="/images/pictogram-screenshot.png">
-                    <div class="mywork-overlay" id="pictogramCardOverlay"><span>shielded-hollows-61325.herokuapp.com</span></div>
+            <div class="col-md-8 col-12">
+                <span class="mywork-titlespan">
+                    <em>Emaily</em>
+                </span>
+                <br>
+                <span class="mywork-contentspan">
+                    Emaily is a survey creation web app through which users can create
+                    and send simple surveys to any number of users via email. This app uses
+                    oauth user authentication for creation and handling of user accounts.
+                    A user can then have to add some credits to his/her account in order to
+                    create surveys. This can be done by dummy credit card option which
+                    uses stripe api. Once the user have enough credits he/she can then create
+                    a new survey by filling a form. The user can then send survey via email which
+                    is powered by the sendgrid api.
+                </span>
+            </div>
+        </div>
+
+        <div class="mywork-card row">
+            <div class="col-md-4 col-12 card card-body"
+                 id="pictogramCard"
+                 style="position: relative;
+                        border-radius: 0;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        padding: 0">
+                <img src="/images/pictogram-screenshot.png">
+                <div class="mywork-overlay" id="pictogramCardOverlay">
+                    <span>shielded-hollows-61325.herokuapp.com</span>
                 </div>
             </div>
-            <div class="col-sm-4 col-12 my-work"
-                 style="padding: 5px">
-                <a><b>Pradumn Bansal</b></a>
-                <div class="card card-body"
-                     id="pradumnbansalCard"
-                     style="border-radius: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 0">
-                    <img src="/images/pradumnbansal-screenshot.png">
-                    <div class="mywork-overlay" id="pradumnbansalCardOverlay"><span>pradumnbansal.herokuapp.com</span></div>
+            <div class="col-md-8 col-12">
+                <span class="mywork-titlespan">
+                    <em>Pictogram</em>
+                </span>
+                <br>
+                <span class="mywork-contentspan">
+                    Pictogram is basically a instagram clone. A user can directly signup
+                    to pictogram by filling a form or he/she can link their facebook or
+                    google account with pictogram. Like in instagram, a user can upload pictures,
+                    like, comment and follow other users. It also have notification feature,
+                    which displays all the current notifications of user read or unread.
+                    It consumes libraries like passportjs, multerjs, expressjs etc.
+                </span>
+            </div>
+        </div>
+
+        <div class="mywork-card row">
+            <div class="col-md-4 col-12 card card-body"
+                 id="pradumnbansalCard"
+                 style="position: relative;
+                        border-radius: 0;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        padding: 0">
+                <img src="/images/pradumnbansal-screenshot.png">
+                <div class="mywork-overlay" id="pradumnbansalCardOverlay">
+                    <span>pradumnbansal.herokuapp.com</span>
                 </div>
+            </div>
+            <div class="col-md-8 col-12">
+                <span class="mywork-titlespan">
+                    <em>Portfolio</em>
+                </span>
+                <br>
+                <span class="mywork-contentspan">
+                    This is my portfolio web page. This is a basic web app made only
+                    using html, css and javascript. It displays all my work.
+                    It also consists of my resume and skill chart. One can download my resume or
+                    contact me directly using the "email me" form on the contact tab.
+                    My other social media links are also available here.
+                </span>
             </div>
         </div>
     </div>
@@ -337,7 +389,7 @@
     });
 
     $('#emailyCardOverlay').click(function () {
-       window.location.assign('https://afternoon-taiga-93958.herokuapp.com');
+        window.location.assign('https://afternoon-taiga-93958.herokuapp.com');
     });
     $('#pictogramCardOverlay').click(function () {
         window.location.assign('https://shielded-hollows-61325.herokuapp.com');
